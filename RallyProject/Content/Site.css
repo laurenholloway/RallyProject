@@ -1,0 +1,206 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/** MY CSS *********************************************************************************************************/
+body {
+    background-color:#eeeeee;
+}
+#site-heading {
+    text-align:center;
+    background-color:#000000;
+    color:white;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family: 'Ceviche One', cursive;
+    font-size:500%;
+    padding-top:2%;
+    line-height:50px;
+}
+#tagline {
+    text-align: center;
+    font-size:120%;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+div.page-header {
+    background-color:#000000;
+    margin-top:0px;
+    margin-bottom:0%;
+}
+body {
+    padding-top:0px;
+    padding-bottom:0px;
+    background-color:#646464;
+}
+footer {
+    background-color:#000000;
+    color:#ffffff;
+    margin-bottom:0px;
+    clear:both;
+    padding:2%;
+}
+
+.issue-card {
+    background-color:#646464;
+    margin-top:1%;
+  
+    padding:1px;
+    
+    
+    border-style:solid;
+    border-width:2px;
+    border-left-width:6px;
+    border-right-width:6px;
+    border-color:#ffffff;
+
+}
+.issue-card img {
+    width:293px;   
+}
+.issue-card h3 {
+    text-align:center;
+}
+.issue-card p {
+    text-align:center;
+}
+/*div.container {
+    margin-left:0px;
+    margin-right:0px!important;
+    margin:0px;
+    width:100%;
+    height:3%;
+}*/
+#icon {
+    width:10%;
+}
+.caption h3 {
+    text-align:center;
+}
+.caption p {
+    text-align:center;
+}
+.masonry {
+    column-count: 3;
+}
+.item {
+    /*background-color: #eee;*/
+    display: inline-block;
+    margin: 0 0 1em;
+    /*width: 100%;*/
+}
+#thumbPic {
+    width:100%;
+    
+}
+.thumbnail {
+    border-style:solid;
+    border-width:2px;
+    border-color:#000000;
+    margin-top:2%;
+    
+}
+#navbar {
+    background-color: #eeeeee;
+    margin-bottom:0%;    
+}
+#navbar a {
+    color:#000000;
+}
+
+/*PROFILE PAGE SPECIFIC CSS*/
+
+#b1 {
+    margin-top:30%;
+}
+#b2 {
+    margin-top:30%;
+}
+#b3 {
+    margin-top:7%;
+}
+#b4 {
+    margin-top:30%;
+}
+#myCarousel {
+    padding-left:0px;
+    padding-right:0px;
+    margin-bottom:0px;
+}
+.carousel-caption {
+    color:white;
+    background-color:#000000;
+    opacity:.7;
+    border-radius:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#youShouldKnw {
+    font-size:40px;
+}
+#callToAction {
+    font-size:25px;
+}
+
+.starter-template {
+    background-color:#eeeeee;
+    text-align:center;
+    color:#000000;
+    width:100%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:5%;
+    margin-top:0px;
+    margin-bottom:2%;
+    padding-bottom:2%;
+    border-bottom-color:#000000;
+    border-bottom-width:2px;
+    
+}
+/*.panel { */
+   /* border-color:#000000;
+    border-style:solid;
+    border-width:2px;
+    margin-bottom:35%;
+    margin-top:10%;*/
+ /*  height:227px;
+  
+} */
+#Register {
+    padding-top:25px;
+}
+.allRegContainer {
+    text-align:center;
+}
+#CheckReg {
+    padding-top:25px;
+}
+
+#UpdateName {
+    padding-top:25px;
+}
+
+#UpdateAdd {
+    padding-top:25px;
+}

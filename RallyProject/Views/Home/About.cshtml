@@ -1,0 +1,126 @@
+﻿@{
+    ViewBag.Title = "";
+}
+
+@*CAROUSEL*@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item next left">
+            <img class="first-slide img-responsive" src="~/images/3002211811_1e95330ca9_o.jpg" alt="First slide">
+            
+            <div class="container" id="blockotext">
+                <div class="carousel-caption">
+                    <h1 id="youShouldKnw"><b>You Should Know...</b></h1>
+                    <p>Ohio voting requirements might change if the Voter ID Bill is passed into law. This Poll Tax will require <b>all</b> 
+                    Ohio residents to purchase a Voter ID Card for $8.50 before being allowed to vote in any election. <br/>
+                    Don't like the sound of that?</p> <p id="callToAction"><b>Do something about it.</b></p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item active left">
+            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>One more for good measure.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+@*HEADING TO START PROFILE ACTION SECTIONS*@
+
+@*
+    <div class="starter-template">
+        <h1>Voter Profile</h1>
+        <p class="lead">Check out your voter profile information to make sure it's up-to-date, update your information, or get registered to vote. It's literally too easy not to.</p>
+    </div>
+*@
+
+
+@*REGISTER TO VOTE SECTION*@
+<div class="allRegContainer">
+    <div id="Register" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Register to Vote</h3>
+            </div>
+            <div class="panel-body">
+                Want to vote? First step, register now. Right now.
+
+                <p id="b1"><a target="_blank" href="http://boe.cuyahogacounty.us/pdf_boe/en-US/Voter_regcard.pdf" class="btn btn-primary" role="button">Register</a></p>
+
+            </div>
+        </div>
+    </div>
+
+    @*CHECK REGISTRATION INFORMATION SECTION*@
+
+    <div id="CheckReg" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Check Your Registration Info</h3>
+            </div>
+            <div class="panel-body">
+                Not sure if your voter registration is up-to-date? Check your info online.
+                <p id="b2"><a target="_blank" href="http://boe.cuyahogacounty.us/en-US/my-voting-information.aspx" class="btn btn-primary" role="button">Check Registration</a></p>
+
+            </div>
+        </div>
+    </div>
+
+    @*UPDATE NAME SECTION*@
+    <div id="UpdateName" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Update Your Name</h3>
+            </div>
+            <div class="panel-body">
+                So, you changed your name. Cool! And you want to vote? Dope. But first you need to update your name on your voter registration. You can do that right here.
+                <p id="b3"><a target="_blank" href="http://boe.cuyahogacounty.us/pdf_boe/en-US/Voter_regcard.pdf" class="btn btn-primary" role="button">Update Name</a></p>
+
+            </div>
+        </div>
+    </div>
+
+    @*UPDATE ADDRESS SECTION*@
+    <div id="UpdateAdd" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Update Your Address</h3>
+            </div>
+            <div class="panel-body">
+                Congrats on your move! Now, update your address. It'll only take a second.
+                <p id="b4"><a target="_blank" href="https://olvr.sos.state.oh.us/ovru/ModifyAddress.aspx" class="btn btn-primary" role="button">Online</a><a target="_blank" href="http://www.sos.state.oh.us/sos/upload/elections/forms/4010.pdf" class="btn btn-default" role="button">By Mail</a></p>
+
+            </div>
+        </div>
+    </div>
+</div>
