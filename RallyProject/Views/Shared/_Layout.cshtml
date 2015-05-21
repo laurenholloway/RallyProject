@@ -34,18 +34,18 @@
         </div>
     </div>*@
     <div class="page-header">
-        <h1 id="site-heading">RALLY</h1>
+        <h1 id="site-heading">@Html.ActionLink("RALLY", "Index", "Home")</h1>
             
         <p id="tagline">Quit the Crap</p>
     </div>
     @*START OF NAVBAR*@
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li><a href="#contact">My Profile</a></li>
-            <li class="active"><a href="#">Issues</a></li>
-            <li><a href="#about">Candidates</a></li>
-            <li><a href="#contact">Ways to Vote</a></li>
-            <li><a href="#contact">Step-By-Step</a></li>
+            <li>@Html.ActionLink("My Voter Info", "MyVoterInfo", "Home")</li>
+            <li class="active">@Html.ActionLink("Issues", "Index", "Home")</li>
+            <li>@Html.ActionLink("Candidates", "Candidates", "Home")</li>
+            <li>@Html.ActionLink("Go Vote", "Vote", "Home")</li>
+            @*<li><a href="#contact">Step-By-Step</a></li>*@
         </ul>
     </div>
    
