@@ -1,1 +1,4 @@
 RallyProject.v12.suo
+RallyProject/App_Data/*
+RallyProject/bin/*
+RallyProject/obj/*
