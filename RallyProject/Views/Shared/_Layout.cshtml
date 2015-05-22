@@ -70,7 +70,10 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
-
-    
+    <script>
+    $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+    })
+    </script>
 </body>
 </html>
