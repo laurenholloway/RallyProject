@@ -13,6 +13,11 @@ namespace RallyProject.Controllers
             return View();
         }
 
+        public ActionResult Map1()
+        {
+            return View();
+        }
+
         public ActionResult MyVoterInfo()
         {
             ViewBag.Message = "Your application description page.";

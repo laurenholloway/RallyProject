@@ -1,0 +1,240 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <style>
+         #map-canvas {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+   
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var myLatlng = new google.maps.LatLng(41.513173, -81.683810);
+            var mapOptions = {
+                center: myLatlng,
+                zoom: 14,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+
+
+            var contentString = '<div id="content">' +
+          '<div id="siteNotice">' +
+          '</div>' +
+          '<div id="bodyContent">' +
+          '<p>2900 M.L.K. Jr. Drive, 44104</p>' +
+          '</div>' +
+          '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            var marker1 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.480532, -81.610287),
+                map: map,
+                title: 'Benedictine High School (Main Office)'
+            });
+            google.maps.event.addListener(marker1, 'click', function () {
+                infowindow.open(map, marker1);
+            });
+            var marker2 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.505024, -81.608250),
+                map: map,
+                title: 'Case Western Reserve University'
+            });
+            var marker3 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.505559, -81.681551),
+                map: map,
+                title: 'Child Support Enforcement Agency (Front Desk )'
+            });
+            var marker4 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.502705, -81.696800),
+                map: map,
+                title: 'Clerk of Courts (Justice Center) (1st floor northeast corner)'
+            });
+            var marker5 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.505326, -81.693564),
+                map: map,
+                title: 'Cleveland City Hall (Personnel) ( Room # 121)'
+            });
+            var marker6 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.501865, -81.690989),
+                map: map,
+                title: 'Cleveland Public Library (Stokes Wing BLDG)'
+            });
+            var marker7 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.553364, -81.574274),
+                map: map,
+                title: 'Collinwood High School (Main Office)'
+            });
+            var marker8 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.501378, -81.697858),
+                map: map,
+                title: 'Cuyahoga County Probation (Marion Building) (5th Floor )'
+            });
+            var marker9 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.505583, -81.681583),
+                map: map,
+                title: 'Cuyahoga Cty. Communications/ Marketing 1 (Room # 230)'
+            });
+            var marker10 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.492757, -81.649806),
+                map: map,
+                title: 'East Tech High School (Main Office)'
+            });
+            var marker11 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.539068, -81.606837),
+                map: map,
+                title: 'Glenville High School (Main Office)'
+            });
+            var marker12 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.430244, -81.720837),
+                map: map,
+                title: 'James Ford Rhodes High School (Main Office)'
+            });
+            var marker13 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.495181, -81.666035),
+                map: map,
+                title: 'Jane Addams High School (Main Office)'
+            });
+            var marker14 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.448921, -81.560013),
+                map: map,
+                title: 'John F. Kennedy High School (Main Office)'
+            });
+            var marker15 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.447861, -81.790383),
+                map: map,
+                title: 'John Marshall High School (Main Office)'
+            });
+            var marker16 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.467170, -81.702274),
+                map: map,
+                title: 'Lincoln West High School (Main Office)'
+            });
+            var marker17 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.487771, -81.719435),
+                map: map,
+                title: 'Max S Hayes High Schools (Main Office)'
+            });
+            var marker18 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.481275, -81.714790),
+                map: map,
+                title: 'May Dugan Center'
+            });
+            var marker19 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.494393, -81.669769),
+                map: map,
+                title: 'Tri-C Metro Campus (Student Activities Office Room # 102)'
+            });
+            var marker20 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.502713, -81.696779),
+                map: map,
+                title: 'Municipal Clerk of Courts (Justice Center) (2nd floor)'
+            });
+            var marker21 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.503653, -81.696966),
+                map: map,
+                title: 'Notary Commission - (Court House) (Room # 101)'
+            });
+            var marker22 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.483436, -81.650767),
+                map: map,
+                title: 'Ohio License Bureau'
+            });
+            var marker23 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.463878, -81.803389),
+                map: map,
+                title: 'Ohio License Bureau'
+            });
+            var marker24 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.493953, -81.631946),
+                map: map,
+                title: 'Quincy Place'
+            });
+            var marker25 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.479216, -81.716710),
+                map: map,
+                title: 'Spanish American Committee'
+            });
+            var marker26 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.460063, -81.817038),
+                map: map,
+                title: 'St Joseph Academy'
+            });
+            var marker27 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.596102, -81.550582),
+                map: map,
+                title: 'Villa Angela-St. Joseph (Room # 206)'
+            });
+            var marker28 = new google.maps.Marker({
+                position: new google.maps.LatLng(41.515596, -81.622309),
+                map: map,
+                title: 'Ohio License Bureau'
+            });
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    var pos = new google.maps.LatLng(position.coords.latitude,
+                                                     position.coords.longitude);
+
+                    /* var infowindow = new google.maps.InfoWindow({
+                         map: map,
+                         position: pos,
+                         content: 'Location found using HTML5.'
+                     });*/
+                    var marker29 = new google.maps.Marker({
+                        position: pos,
+                        map: map,
+                        title: 'Current Location',
+                        //icon: 'https://google-developers.appspot.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+                        animation: google.maps.Animation.BOUNCE
+                    });
+
+                    map.setCenter(pos);
+                }, function () {
+                    handleNoGeolocation(true);
+                });
+            }
+            else {
+                // Browser doesn't support Geolocation
+                handleNoGeolocation(false);
+            }
+        }
+        function handleNoGeolocation(errorFlag) {
+            if (errorFlag) {
+                var content = 'Error: The Geolocation service failed.';
+            } else {
+                var content = 'Error: Your browser doesn\'t support geolocation.';
+            }
+
+            var options = {
+                map: map,
+                position: new google.maps.LatLng(60, 105),
+                content: content,
+            };
+
+            var infowindow = new google.maps.InfoWindow(options);
+            map.setCenter(options.position);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+    <div>
+        <p> Hover over the balloons to see where your closest location is to vote in person or to drop off voter registration form.</p>
+    </div>
+        <div id="map-canvas"></div>
+
+</body>
+</html>
