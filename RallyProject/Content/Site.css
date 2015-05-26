@@ -154,9 +154,17 @@ footer {
     opacity:.7;
     border-radius:10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-  padding: 25px;
+    padding: 25px;
 }
 
+.textLeft{
+    text-align:left;
+    font-size:20px;
+}
+.moveTextLt{
+    text-align:left;
+    font-size:20px;
+}
 #youShouldKnw {
     font-size:40px;
 }
@@ -210,7 +218,6 @@ footer {
     padding-top:25px;
     
 }
-
 #UpdateAdd {
     padding-top:25px;
 }
