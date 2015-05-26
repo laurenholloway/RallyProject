@@ -132,16 +132,27 @@ footer {
 /*PROFILE PAGE SPECIFIC CSS*/
 
 #b1 {
-    margin-top:30%;
+    margin-top:20px;
+    
 }
 #b2 {
-    margin-top:30%;
+    margin-top:60px;
 }
 #b3 {
-    margin-top:17%;
+    margin-top:60px;
    }
-#b4 {
-    margin-top:30%;
+#rb1 {
+    margin-top:70px;
+    margin-bottom:0px;
+}
+#rb2 {
+    margin-top:70px;
+}
+#rb3 {
+    margin-top:30px;
+}
+#rb4 {
+    margin-top:70px;
 }
 #myCarousel {
     padding-left:0px;
@@ -200,24 +211,33 @@ footer {
     border-style:solid;
     border-width:2px;
     margin-bottom:35%;
-    margin-top:10%;*/
- /*  height:227px;
+    margin-top:10%;
+   height:227px;
   
 } */
+
 #Register {
     padding-top:25px;
+    
 }
 .allRegContainer {
     text-align:center;
+   
 }
 #CheckReg {
     padding-top:25px;
+   
 }
 
 #UpdateName {
     padding-top:25px;
     
+    
 }
 #UpdateAdd {
     padding-top:25px;
+
 }
+div.panel.panel-default.infoBox {
+    height:230px;
+} 
