@@ -105,6 +105,5 @@ C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\Rally
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.csprojResolveAssemblyReference.cache
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.dll
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.pdb
