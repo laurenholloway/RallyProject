@@ -105,9 +105,10 @@
             </div>
             <div class="panel-body">
                 Want to vote? First step, register now.<br /> Right here.
+                @*Add Google Map here*@
+                <p id="rb1">@Html.ActionLink("In Person", "Map1", "Home", new { @class = "btn btn-primary"})<a target="_blank" href="http://www.sos.state.oh.us/sos/upload/elections/forms/4010.pdf" class="btn btn-default" role="button">By Mail</a></p>
 
-                <p id="rb1"><a target="_blank" href="http://boe.cuyahogacounty.us/pdf_boe/en-US/Voter_regcard.pdf" class="btn btn-primary" role="button">Register</a></p>
-
+                @*id="rb1" class="btn btn-primary" role="button">@Html.ActionLink("In Person", "Map1", "Home")*@
             </div>
         </div>
     </div>
