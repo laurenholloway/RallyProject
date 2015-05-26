@@ -37,6 +37,7 @@ body {
     font-size:500%;
     padding-top:2%;
     line-height:50px;
+    
 }
 #tagline {
     text-align: center;
@@ -206,6 +207,7 @@ footer {
 } */
 #Register {
     padding-top:25px;
+    padding-bottom:323px;
 }
 .allRegContainer {
     text-align:center;
@@ -220,4 +222,7 @@ footer {
 }
 #UpdateAdd {
     padding-top:25px;
+}
+a:hover {
+    text-decoration: none;
 }
