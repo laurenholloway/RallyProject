@@ -109,3 +109,4 @@ C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\Rally
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.csprojResolveAssemblyReference.cache
 C:\Users\wecancodeit\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.Migrations.InitialCreate.resources
 C:\Users\wecancodeit\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.csproj.GenerateResource.Cache
+C:\Users\wecancodeit\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.csprojResolveAssemblyReference.cache

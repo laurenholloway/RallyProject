@@ -246,3 +246,13 @@ a:hover {
     text-decoration: none;
 }
 
+#navcolor {
+    background-color: black;
+}
+.navbar-toggle {
+    background-color: black;
+}
+.icon-bar {
+    background-color: gray;
+}
+
