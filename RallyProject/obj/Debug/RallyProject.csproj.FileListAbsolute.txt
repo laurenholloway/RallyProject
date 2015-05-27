@@ -50,7 +50,6 @@ c:\users\wecancodeit\documents\visual studio 2013\Projects\RallyProject\RallyPro
 c:\users\wecancodeit\documents\visual studio 2013\Projects\RallyProject\RallyProject\bin\Microsoft.Owin.Security.Google.xml
 c:\users\wecancodeit\documents\visual studio 2013\Projects\RallyProject\RallyProject\bin\Microsoft.Owin.Security.Twitter.xml
 c:\users\wecancodeit\documents\visual studio 2013\Projects\RallyProject\RallyProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\wecancodeit\documents\visual studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.csprojResolveAssemblyReference.cache
 c:\users\wecancodeit\documents\visual studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.dll
 c:\users\wecancodeit\documents\visual studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.pdb
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\bin\RallyProject.dll.config
@@ -108,3 +107,5 @@ C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\Rally
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.dll
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.pdb
 C:\Users\We Can Code IT\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.csprojResolveAssemblyReference.cache
+C:\Users\wecancodeit\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.Migrations.InitialCreate.resources
+C:\Users\wecancodeit\Documents\Visual Studio 2013\Projects\RallyProject\RallyProject\obj\Debug\RallyProject.csproj.GenerateResource.Cache
